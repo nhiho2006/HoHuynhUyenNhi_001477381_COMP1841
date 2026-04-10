@@ -1,0 +1,1705 @@
+/* ===== GENERAL ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff6f9;
+    color: #5a4a5f;
+}
+
+/* ===== HEADER ===== */
+header {
+    padding: 20px 40px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+/* ADMIN HEADER */
+#admin header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: #f3a6c9;
+    position: relative;
+}
+
+#admin header .logout-btn {
+    position: absolute;
+    right: 20px;
+}
+
+/* ===== NAV ===== */
+nav {
+    background: #f8c8dc;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a4a5f;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background: #ffb7a5;
+}
+
+/* ===== MAIN ===== */
+main {
+    padding: 40px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #f3a6c9;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ===== FORM CARD ===== */
+.form-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-card {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* INPUT */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #f3a6c9;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background: #bfa6d9;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ===== DELETE BUTTON  ===== */
+input[type="submit"][value="Delete"] {
+    width: auto;
+    padding: 5px 12px;
+    font-size: 13px; 
+    background: #ff6b81;
+    margin-top: 5px;
+}
+
+input[type="submit"]:hover {
+    background: #a98fd1;
+}
+
+input[type="submit"][value="Delete"]:hover {
+    background: #ff4757;
+}
+
+/* ===== LOGOUT BUTTON ===== */
+.logout-btn {
+    background: #ff6fa5;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logout-btn:hover {
+    background: #ff4f90;
+}
+
+/* ===== REVIEW CARD ===== */
+.review-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== BUTTON LINK ===== */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #f3a6c9;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #e48bb5;
+}
+/* Page title */
+.page-title {
+    text-align: center;
+    color: #5d4d7a;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Form container */
+.form-card {
+    max-width: 450px;
+    margin: 20px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 30px;
+    border: 1.5px solid #fbcfe8;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Labels */
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: 600;
+}
+
+/* Inputs */
+.form-input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1.5px solid #fbcfe8;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Upload box */
+.upload-box {
+    text-align: center;
+    border: 2px dashed #fbcfe8;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff9fb;
+    margin-bottom: 10px;
+}
+
+/* Upload button */
+.upload-btn {
+    background: #f472b6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Hidden input */
+.file-input {
+    display: none;
+}
+
+/* Notes */
+.upload-note {
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.upload-warning {
+    font-size: 12px;
+    color: #f472b6;
+    margin-bottom: 25px;
+}
+
+/* Submit button */
+.submit-btn {
+    width: 100%;
+    background: #c3a9d8;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.page-title {
+    text-align: center;
+    color: #5d4d7a;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.form-card {
+    max-width: 450px;
+    margin: 20px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 30px;
+    border: 1.5px solid #fbcfe8;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1.5px solid #fbcfe8;
+    margin-bottom: 25px;
+}
+
+.upload-box {
+    text-align: center;
+    border: 2px dashed #fbcfe8;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.upload-btn {
+    background: #f472b6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-note {
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.upload-warning {
+    font-size: 12px;
+    color: #f472b6;
+    margin-bottom: 25px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #c3a9d8;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Center text */
+.center-text {
+    text-align: center;
+}
+
+/* Admin box */
+.admin-box {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* Admin title */
+.admin-title {
+    color: #d63384;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ff1493;
+}
+/* Layout */
+.center-text { text-align: center; }
+.form-medium { max-width: 500px; margin: auto; }
+
+/* Inputs */
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #fbcfe8;
+    margin-bottom: 20px;
+}
+
+.form-textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border-radius: 15px;
+    border: 1.5px solid #fbcfe8;
+    margin-bottom: 20px;
+}
+
+/* Image */
+.poster-img {
+    width: 150px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Checkbox */
+.checkbox-label {
+    display: block;
+    text-align: center;
+    color: #fb7185;
+    margin-bottom: 20px;
+}
+
+/* Link button */
+.link-btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #f472b6;
+    font-weight: bold;
+}
+/* General layout */
+body {
+    background-color: #fff5f7;
+    font-family: sans-serif;
+}
+
+/* Titles */
+.page-title {
+    text-align: center;
+    color: #5d4d7a;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #c3a9d8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* Delete button */
+.btn-delete {
+    background: none;
+    border: none;
+    color: #fb7185;
+    cursor: pointer;
+}
+
+/* Table */
+.table-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Align center */
+.center {
+    text-align: center;
+}
+
+/* Inline form */
+.inline-form {
+    display: inline;
+}
+/* General container for the review card */
+.review-card {
+    max-width: 850px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 35px;
+    border: 2px solid #ffdae0;
+    box-shadow: 0 15px 35px rgba(255,182,193,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header section with image and title info */
+.review-header {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.film-poster {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border: 5px solid #fff9fa;
+}
+
+.film-details {
+    flex: 1;
+    min-width: 300px;
+}
+
+.film-title {
+    color: #c9184a;
+    margin-top: 10px;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.category-tag {
+    color: #f472b6;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.separator {
+    border: 0;
+    border-top: 1px solid #fdf2f8;
+    margin: 20px 0;
+}
+
+/* Meta info: Author and Date */
+.meta-info {
+    margin-top: 20px;
+}
+
+.meta-text {
+    color: #5d4d7a;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.author-name {
+    color: #d63384;
+    font-weight: bold;
+}
+
+.post-date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+/* Reaction buttons/stats */
+.reaction-stats {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.likes { color: #ff4d6d; font-weight: bold; font-size: 16px; }
+.dislikes { color: #adb5bd; font-weight: bold; font-size: 16px; }
+
+/* The main review content box */
+.review-content-box {
+    line-height: 1.8;
+    color: #444;
+    font-size: 18px;
+    background: #fffcfd;
+    padding: 35px;
+    border-radius: 25px;
+    border: 1px solid #fff0f3;
+    position: relative;
+}
+
+.quote-mark {
+    font-size: 60px;
+    color: #ffdae0;
+    position: absolute;
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+.quote-left { top: -10px; left: 15px; }
+.quote-right { bottom: -40px; right: 20px; }
+
+.review-text {
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+/* Back button styling */
+.footer-actions {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.btn-back {
+    text-decoration: none;
+    color: white;
+    background: #ff6b81;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(255,107,129,0.3);
+    display: inline-block;
+}
+
+.btn-back:hover {
+    background: #ff4f67;
+    transform: translateY(-2px);
+}
+/* Container titles */
+.list-title {
+    font-size: 28px;
+    color: #c9184a;
+    margin-bottom: 5px;
+}
+
+.review-count {
+    color: #f472b6;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Individual Review Item */
+.review-item {
+    margin-bottom: 25px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 25px;
+    border: 1px solid #fff0f3;
+    box-shadow: 0 10px 20px rgba(255,182,193,0.1);
+    transition: transform 0.2s ease;
+}
+
+.review-item:hover {
+    transform: translateY(-3px);
+}
+
+.review-item h3 {
+    color: #c9184a;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.review-thumb {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 3px solid #fff9fa;
+}
+
+.review-snippet {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.review-meta {
+    font-size: 14px;
+    color: #888;
+    margin: 15px 0;
+}
+
+.review-meta strong {
+    color: #d63384;
+}
+
+/* Action Buttons */
+.actions {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-delete {
+    background: #ff6b81;
+    color: white;
+    box-shadow: 0 4px 10px rgba(255,107,129,0.2);
+}
+
+.btn-delete:hover {
+    background: #ff4f67;
+}
+
+.btn-edit {
+    background: #f3a6c9;
+    color: white;
+    margin-left: 8px;
+    box-shadow: 0 4px 10px rgba(243,166,201,0.2);
+}
+
+.btn-edit:hover {
+    background: #ef8dbb;
+}
+/* Page Heading */
+.admin-title {
+    text-align: center; 
+    color: #5d4d7a; 
+    font-size: 30px; 
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Action Header (Add Button Area) */
+.action-header {
+    max-width: 900px; 
+    margin: 0 auto 20px auto; 
+    text-align: right;
+}
+
+.btn-add {
+    background: #c3a9d8; 
+    color: white; 
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    box-shadow: 0 4px 10px rgba(195, 169, 216, 0.3); 
+    transition: 0.3s; 
+    display: inline-block;
+}
+
+.btn-add:hover {
+    background: #b089cc;
+    transform: translateY(-2px);
+}
+
+/* Table Container */
+.table-container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 20px; 
+    border: 1.5px solid #fbcfe8;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+}
+
+.user-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.user-table thead tr {
+    border-bottom: 2px solid #fbcfe8; 
+    color: #5d4d7a;
+}
+
+.user-table th {
+    padding: 15px; 
+    text-align: left;
+}
+
+.user-table td {
+    padding: 15px;
+    color: #666;
+}
+
+.user-table tbody tr {
+    border-bottom: 1px solid #fff1f2;
+    transition: background 0.2s;
+}
+
+.user-table tbody tr:hover {
+    background-color: #fff9fb;
+}
+
+/* Table Actions */
+.text-center { text-align: center; }
+
+.link-edit {
+    color: #c3a9d8; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.link-edit:hover {
+    color: #a07fbc;
+}
+
+.btn-delete-link {
+    background: none; 
+    border: none; 
+    color: #fb7185; 
+    cursor: pointer; 
+    font-weight: bold;
+    padding: 0;
+    font-family: inherit;
+    transition: 0.2s;
+}
+
+.btn-delete-link:hover {
+    color: #e11d48;
+    text-decoration: underline;
+}
+/* Header and Subtext */
+.page-header {
+    font-size: 30px; 
+    color: #d63384; 
+    margin-top: 20px;
+}
+
+.sub-header {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Filter and Search Bar Container */
+.toolbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 30px; 
+    background: #fff0f3; 
+    padding: 15px; 
+    border-radius: 25px; 
+    border: 1px solid #ffb3c1;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filter-group {
+    display: flex; 
+    gap: 10px;
+}
+
+.btn-filter {
+    text-decoration: none; 
+    padding: 10px 20px; 
+    color: white; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-latest { background: #ff6b81; }
+.btn-liked { background: #ff8fa3; }
+.btn-filter:hover { opacity: 0.9; transform: scale(1.05); }
+
+/* Search Form */
+.search-form {
+    display: flex; 
+    gap: 8px;
+}
+
+.search-input {
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    border: 2px solid #ffb3c1; 
+    outline: none; 
+    width: 220px; 
+    font-size: 14px;
+}
+
+.btn-search {
+    cursor: pointer; 
+    padding: 10px 20px; 
+    background: #d63384; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-search:hover { background: #c9184a; }
+
+/* Review Card Styles */
+.review-card {
+    margin-bottom: 25px; 
+    padding: 20px; 
+    background: #ffffff; 
+    border-radius: 20px; 
+    border: 2px solid #ffdae0; 
+    box-shadow: 0 5px 15px rgba(255,182,193,0.1); 
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255,182,193,0.2);
+}
+
+.card-title a {
+    color: #c9184a; 
+    font-size: 22px; 
+    text-decoration: none;
+}
+
+.film-img {
+    border-radius: 15px; 
+    margin-bottom: 15px; 
+    display: block; 
+    border: 3px solid #fff9fa; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+.review-excerpt {
+    font-size: 17px; 
+    color: #444; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    font-style: italic; 
+    text-align: justify;
+}
+
+.quote-decor {
+    color: #ffb3c1; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.meta-box {
+    font-size: 14px; 
+    color: #666; 
+    margin-bottom: 15px; 
+    background: #fffcfd; 
+    padding: 10px; 
+    border-radius: 10px; 
+    border: 1px solid #fff0f3;
+}
+
+/* Bottom Interactions */
+.card-footer {
+    border-top: 1px solid #ffe5ec; 
+    padding-top: 15px; 
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.btn-interact {
+    text-decoration: none; 
+    font-size: 16px;
+}
+
+.count-like { color: #ff4d6d; font-weight: bold; }
+.count-dislike { color: #adb5bd; font-weight: bold; }
+
+.btn-details {
+    margin-left: auto; 
+    text-decoration: none; 
+    color: white; 
+    background: #ff6b81; 
+    padding: 8px 18px; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    font-size: 13px; 
+    box-shadow: 0 4px 10px rgba(255,107,129,0.2);
+}
+/* Container for the landing page */
+.welcome-container {
+    text-align: center; 
+    margin-top: 80px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-title {
+    color: #5d4d7a; 
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.welcome-subtitle {
+    color: #777; 
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Card for the Call to Action */
+.cta-card {
+    max-width: 600px; 
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    border: 2px dashed #ffdae0;
+}
+
+.cta-title {
+    color: #d63384;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* Main Action Button */
+.btn-start {
+    display: inline-block;
+    background: #ff6b81;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(255, 107, 129, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-start:hover {
+    background: #ff4f67;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(255, 107, 129, 0.3);
+}
+
+.admin-title {
+    text-align: center; 
+    color: #5d4d7a; 
+    font-size: 30px; 
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.action-header {
+    max-width: 800px; 
+    margin: 0 auto 20px auto; 
+    text-align: right;
+}
+
+.btn-add {
+    background: #c3a9d8; 
+    color: white; 
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    box-shadow: 0 4px 10px rgba(195, 169, 216, 0.3); 
+    transition: 0.3s; 
+    display: inline-block;
+}
+
+.btn-add:hover {
+    background: #b089cc;
+    transform: translateY(-2px);
+}
+
+/* Container bảng */
+.table-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 20px; 
+    border: 1.5px solid #fbcfe8;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+}
+
+.admin-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.admin-table thead tr {
+    border-bottom: 2px solid #fbcfe8; 
+    color: #5d4d7a;
+}
+
+.admin-table th {
+    padding: 15px; 
+    text-align: left;
+}
+
+.admin-table td {
+    padding: 15px;
+    color: #555;
+}
+
+.admin-table tbody tr {
+    border-bottom: 1px solid #fff1f2;
+    transition: background 0.2s;
+}
+
+.admin-table tbody tr:hover {
+    background-color: #fffcfd;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.link-edit {
+    color: #c3a9d8; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.link-edit:hover {
+    color: #a07fbc;
+}
+
+.btn-delete-link {
+    background: none; 
+    border: none; 
+    color: #fb7185; 
+    cursor: pointer; 
+    font-weight: bold; 
+    font-family: inherit;
+    padding: 0;
+    transition: 0.2s;
+}
+
+.btn-delete-link:hover {
+    color: #e11d48;
+    text-decoration: underline;
+}
+
+.admin-table th.text-center, 
+.admin-table td.text-center {
+    text-align: center;
+    padding: 15px; 
+}
+
+.column-actions {
+    text-align: left;
+    padding-left: 30px;
+}
+/* =========================================
+             ADMIN TABLE STYLE 
+   ========================================= */
+
+.table-container {
+    max-width: 1000px;
+    margin: 40px auto; 
+    background: white; 
+    padding: 25px; 
+    border-radius: 20px; 
+    border: 1.5px solid #fbcfe8;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+}
+
+.user-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.user-table th, 
+.user-table td {
+    padding: 18px 15px; 
+    text-align: center !important;
+    vertical-align: middle;
+}
+
+.user-table thead tr {
+    border-bottom: 2px solid #fbcfe8; 
+    color: #5d4d7a;
+    font-weight: bold;
+}
+
+.user-table tbody tr {
+    border-bottom: 1px solid #fff1f2;
+    transition: background 0.2s;
+}
+
+.user-table tbody tr:hover {
+    background-color: #fff9fb;
+}
+
+.user-table td {
+    color: #666;
+    font-size: 15px;
+}
+
+.link-edit {
+    color: #c3a9d8; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+.link-edit:hover {
+    color: #a07fbc;
+    text-decoration: underline;
+}
+
+.btn-delete-link {
+    background: none; 
+    border: none; 
+    color: #fb7185; 
+    cursor: pointer; 
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 0;
+    display: inline-block;
+}
+
+.btn-delete-link:hover {
+    color: #e11d48;
+    text-decoration: underline;
+}
+
+form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-color: #fff5f7; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-title {
+    text-align: center; 
+    color: #5d4d7a; 
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.form-card {
+    max-width: 500px; 
+    margin: 0 auto 50px auto; 
+    background: white; 
+    padding: 40px; 
+    border-radius: 30px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.03); 
+    border: 1.5px solid #fbcfe8;
+}
+
+.form-label {
+    display: block; 
+    margin-bottom: 10px; 
+    color: #555; 
+    font-size: 18px;
+}
+
+.form-input {
+    width: 100%; 
+    padding: 15px 20px; 
+    border-radius: 20px; 
+    border: 1.5px solid #fbcfe8; 
+    margin-bottom: 20px; 
+    outline: none; 
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    border-color: #f472b6;
+    box-shadow: 0 0 8px rgba(244, 114, 182, 0.1);
+}
+
+.form-textarea {
+    height: 120px; 
+    resize: none;
+}
+
+.file-upload-wrapper {
+    margin-bottom: 30px; 
+    display: flex; 
+    align-items: center; 
+    gap: 15px;
+}
+
+.btn-pick-image {
+    display: inline-block; 
+    background: #fff; 
+    color: #d63384; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    border: 1.5px solid #fbcfe8; 
+    cursor: pointer; 
+    font-weight: bold; 
+    font-size: 14px; 
+    transition: 0.3s;
+}
+
+.btn-pick-image:hover {
+    background: #fff0f5;
+    border-color: #f472b6;
+}
+
+.file-note {
+    color: #999; 
+    font-size: 13px; 
+    font-style: italic;
+}
+
+
+.btn-submit {
+    width: 100%; 
+    background: #c3a9d8; 
+    color: white; 
+    border: none; 
+    padding: 18px; 
+    border-radius: 30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background: #b394cc; 
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(179, 148, 204, 0.3);
+}
+
+.admin-messages-title {
+    color: #5d4d7a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    border: 1.5px solid #fbcfe8; /* Giữ màu hồng nhạt đồng bộ */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.form-card strong {
+    color: #5a4a5f;
+}
+
+.form-card small {
+    color: #888;
+}
+
+.message-content {
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    color: #444;
+    line-height: 1.6;
+}
+/* =========================================
+         REVIEW LIST (User Side)
+   ========================================= */
+
+.page-header {
+    text-align: center;
+    color: #d63384;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.sub-header {
+    text-align: center;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto 30px;
+    background: #fff0f3;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #ffb3c1;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filter-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-filter {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-latest { background: #ff6b81; }
+.btn-liked { background: #ff8fa3; }
+
+.search-form {
+    display: flex;
+    gap: 8px;
+}
+
+.search-input {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #ffb3c1;
+    outline: none;
+    width: 220px;
+}
+
+.btn-search {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #d63384;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.card-title a {
+    color: #c9184a;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.film-img {
+    border-radius: 15px;
+    margin: 15px 0;
+    border: 3px solid #fff9fa;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+.review-excerpt {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.6;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote-decor {
+    color: #ffb3c1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.meta-box {
+    font-size: 14px;
+    color: #666;
+    margin: 15px 0;
+    padding: 10px;
+    background: #fffcfd;
+    border-radius: 10px;
+    border: 1px solid #fff0f3;
+}
+
+.meta-author {
+    margin-right: 15px;
+}
+
+.author-name {
+    color: #d63384;
+    font-weight: bold;
+}
+
+.card-footer {
+    border-top: 1px solid #ffe5ec;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-interact {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.count-like { color: #ff4d6d; font-weight: bold; }
+.count-dislike { color: #adb5bd; font-weight: bold; }
+
+.btn-details {
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    background: #ff6b81;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* =========================================
+         ADD NEW USER (Admin Side)
+   ========================================= */
+
+.error-alert {
+    display: flex;
+    align-items: center;
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f87171;
+    font-size: 14px;
+}
+
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #c3a9d8;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #b394cc;
+    transform: translateY(-2px);
+}
+
+.link-btn {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: #f472b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#admin nav a.logout-link {
+    color: #ff6b81;
+    font-weight: bold;
+}
+
+#admin main {
+    min-height: 70vh; 
+    padding-bottom: 50px;
+}
+
+#admin footer {
+    margin-top: auto;
+    background: #f3a6c9;
+    text-align: center;
+    padding: 15px;
+}
+.rating-display {
+    color: #ff8fa3; 
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.star-icon {
+    color: #ff8fa3;
+    margin-right: 2px;
+}
+
+.btn-top {
+    background: #ff4d6d; 
+}
+
+.rating-display {
+    color: #ff8fa3;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.star-icon {
+    color: #ff8fa3;
+}
+
+.submit-btn:hover {
+    background: #b394cc;
+    transform: translateY(-2px);
+}
+
+.rating-box {
+    margin-bottom: 10px;
+}
+
+.rating-text {
+    color: #ff4d6d;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Review Card Container */
+.review-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+.film-poster {
+    width: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Header & Details */
+.review-header {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.film-title {
+    color: #c2185b;
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.category-tag {
+    color: #ff8fa3;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.review-content-box {
+    border: 1px solid #ffe5ec;
+    border-radius: 15px;
+    padding: 40px;
+    position: relative;
+    background: #fff;
+}
+
+.quote-mark {
+    color: #ffccd5;
+    font-size: 50px;
+    position: absolute;
+    font-family: Georgia, serif;
+}
+
+.quote-left { top: 10px; left: 15px; }
+.quote-right { bottom: 0; right: 15px; }
+
+.review-text {
+    color: #555;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.btn-back {
+    display: inline-block;
+    background: #ff758f;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    background: #ff4d6d;
+    transform: translateY(-2px);
+}
+.form-actions {
+    margin-top: 20px;
+}
+/* --- Edit Review Page Styles --- */
+.poster-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.poster-img {
+    width: 150px;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.poster-caption {
+    font-size: 0.9em;
+    color: #e26a6a;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* --- Review List Styles --- */
+.top-rated-badge {
+    color: #ff8fa3;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.link-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #ff8fa3; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
