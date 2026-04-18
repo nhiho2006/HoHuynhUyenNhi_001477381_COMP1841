@@ -14,13 +14,13 @@ if (isset($_POST['reviewtext'])) {
         move_uploaded_file($_FILES['image']['tmp_name'], '../images/' . $image);
     }
 
-    // Insert review with image
+    // Insert review
     insertReview(
         $pdo,
         $_POST['reviewtext'],
         $_POST['userid'],
         $_POST['filmid'],
-        $image
+        $rating
     );
 
     header('Location: reviews.php');
