@@ -1,5 +1,4 @@
-<!-- Nhúng file CSS -->
-<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="../style.css">
 
 <h2 class="form-title">Contact Admin ✉️</h2>
 
