@@ -1,5 +1,4 @@
-<!-- Link the CSS -->
-<link rel="stylesheet" href="user_style.css">
+<link rel="stylesheet" href="../style.css">
 
 <h2 class="admin-title">Manage Users 👤</h2>
 
