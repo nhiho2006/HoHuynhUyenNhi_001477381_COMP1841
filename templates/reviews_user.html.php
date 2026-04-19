@@ -26,7 +26,7 @@
     <div class="rating-display">
         Rating: 
         <?php 
-            // Nếu có avg_rating (chế độ Top Rated) thì hiện nó, không thì hiện rating lẻ
+        
             $displayRating = $review['avg_rating'] ?? $review['rating'] ?? 0;
             echo number_format((float)$displayRating, 1); 
         ?> 
