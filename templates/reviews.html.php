@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="list_style.css">
+<link rel="stylesheet" href="../style.css">
 
 <h2 class="list-title">Review List</h2>
 <p class="review-count"><?= (int)$totalReviews ?> Reviews</p>
