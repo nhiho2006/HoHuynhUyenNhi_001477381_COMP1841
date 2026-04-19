@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="admin_messages.css">
+<link rel="stylesheet" href="../style.css">
 
 <h2 class="admin-messages-title">Customer Messages</h2>
 
