@@ -1,5 +1,4 @@
-<!-- Link the separated CSS -->
-<link rel="stylesheet" href="welcome_style.css">
+<link rel="stylesheet" href="../style.css">
 
 <div class="welcome-container">
     <h1 class="welcome-title">Welcome to Our Film Review 🎬</h1>
