@@ -1,5 +1,4 @@
-<!-- Link file CSS -->
-<link rel="stylesheet" href="admin_tables.css">
+<link rel="stylesheet" href="../style.css">
 
 <h2 class="admin-title">Manage Films 🎬</h2>
 
