@@ -13,6 +13,6 @@ if (isset($_GET['id']) && isset($_GET['type'])) {
     }
 }
 
-// Quay lại trang danh sách review sau khi bấm
+
 header('Location: reviews_user.php');
 exit();
