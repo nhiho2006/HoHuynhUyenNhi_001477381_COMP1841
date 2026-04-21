@@ -1,7 +1,7 @@
 <?php
 include '../includes/DatabaseConnection.php';
 include '../includes/DatabaseFunctions.php';
-include 'login/Check.php'; // Đảm bảo đã đăng nhập admin
+include 'login/Check.php'; 
 
 $contacts = getContacts($pdo);
 $title = 'View Contacts';
